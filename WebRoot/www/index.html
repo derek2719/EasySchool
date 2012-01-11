@@ -1,1 +1,95 @@
-建立新版本
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>EasySchool</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/es.css" />
+<link rel="stylesheet" href="lib/jqm/css/jquery.mobile-1.0.css" />
+<script type="text/javascript" charset="utf-8" src="lib/jqm/jquery-1.7.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/jqm/jquery.mobile-1.0.js"></script>
+</head>
+<body>
+<!-- 导航界面 -->
+<div data-role="page" id="naviPage">
+	<div class="naviPage_background">
+		<div class="naviPage_big_btn" style="left:26px;top:29px;">
+			<a href="#newPage" data-transition="slide">
+				<img class="naviPage_big_img" src="images/navipage/new.png"/>
+			</a>		
+		</div>
+		<div class="naviPage_big_btn" style="left:163px;top:29px;">
+			<a href="#mapPage" data-transition="slide">
+				<img class="naviPage_big_img" src="images/navipage/map.png"/>
+			</a>			
+		</div>
+		<div class="naviPage_big_btn" style="left:26px;top:165px;">
+			<a href="#realmapPage" data-transition="slide">
+				<img class="naviPage_big_img" src="images/navipage/realmap.png"/>
+			</a>			
+		</div>
+		<div class="naviPage_big_btn" style="left:163px;top:165px;">
+			<a href="#myPage" data-transition="slide">
+				<img class="naviPage_big_img" src="images/navipage/my.png"/>
+			</a>			
+		</div>
+		<div class="naviPage_big_btn" style="left:26px;top:301px;">
+			<a href="#schoolPage" data-transition="slide">
+				<img class="naviPage_big_img" src="images/navipage/school.png"/>
+			</a>			
+		</div>
+		<div class="naviPage_small_btn" style="left:163px;top:301px;">
+			<a href="#morePage" data-transition="slide">
+				<img class="naviPage_small_img" src="images/navipage/more.png"/>
+			</a>			
+		</div>
+		<div class="naviPage_small_btn" style="left:163px;top:369px;">
+			<a href="#aboutPage" data-transition="slide">
+				<img class="naviPage_small_img" src="images/navipage/about.png"/>
+			</a>			
+		</div>
+	</div>
+</div>
+
+<!-- 最新文章界面 -->
+<div data-role="page" id="newPage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>最新文章</h1>
+</div>
+
+<!-- 地图界面 -->
+<div data-role="page" id="mapPage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>地图查询</h1>
+</div>
+
+<!-- 实景地图界面 -->
+<div data-role="page" id="realmapPage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>实景地图</h1>
+</div>
+
+<!-- 个人中心界面 -->
+<div data-role="page" id="myPage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>个人中心</h1>
+</div>
+
+<!-- 课堂界面 -->
+<div data-role="page" id="schoolPage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>课堂</h1>
+</div>
+
+<!-- 更多界面 -->
+<div data-role="page" id="morePage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>更多内容</h1>
+</div>
+
+<!-- 关于界面 -->
+<div data-role="page" id="aboutPage">
+<a href="#naviPage" data-rel="back">返回</a>
+<h1>关于我们</h1>
+</div>
+</body>
+</html>

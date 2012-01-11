@@ -1,0 +1,39 @@
+/*公共*/
+*	{
+	padding:0;
+	margin:0;
+}
+img {
+	border:0
+}
+/*欢迎界面*/
+.naviPage_background {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:320px;
+	height:460px;
+	border:0;
+	overflow:hidden;
+	background-image:url("../images/navipage/background.gif");
+}
+.naviPage_big_btn {
+	position:absolute;
+	overflow:hidden;
+	width:132px;
+	height:132px;
+}
+.naviPage_small_btn {
+	position:absolute;
+	overflow:hidden;
+	width:132px;
+	height:64px;
+}
+.naviPage_big_img {
+	width:132px;
+	height:132px;
+}
+.naviPage_small_img {
+	width:132px;
+	height:64px;
+}
